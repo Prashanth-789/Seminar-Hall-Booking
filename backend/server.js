@@ -26,7 +26,7 @@ app.use((req,res,next)=>{
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-// MongoDB connection URI and options
+// MongoDB connection URI and option
 // const mongooseOptions = {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
